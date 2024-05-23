@@ -10,6 +10,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from preprocessing import finalpreprocess
 from langchain.chains.llm import LLMChain
+import nltk
+nltk.download('stopwords')
 
 load_dotenv()
 os.getenv("GOOGLE_API_KEY")
