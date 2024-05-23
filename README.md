@@ -1,6 +1,6 @@
 # NLP task 
 
-I have this model on streamlit: https://iitksecyrecruitmentnlpproject-b4puxphxumdjmej6zh2ls6.streamlit.app/
+I have deployed this model on streamlit: https://iitksecyrecruitmentnlpproject-b4puxphxumdjmej6zh2ls6.streamlit.app/
 ## My Approach
 
 #### Data cleaning and processing
