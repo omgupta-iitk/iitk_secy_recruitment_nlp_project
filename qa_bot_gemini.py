@@ -39,7 +39,7 @@ def get_conversational_chain():
     prompt_template = """
     You are a chatbot having a conversation with a human.
 
-    Given the following extracted parts of a long document and a question, create a short final answer.
+    Given the following extracted parts of a long document and a question, create a very short final answer.
     If the answer is not in the provided context, just say "False". Don't provide a wrong answer. 
     If the answer is in the context, say "True", return the whole paragraph that contains the answer, 
     and then provide the answer to the question.\n\n
@@ -51,7 +51,7 @@ def get_conversational_chain():
     {{
         "Can be answered": "True" or "False", 
         "Answering Paragraph": "paragraph number that can answer the question",
-        "Answer": "answer to the question"
+        "Answer": "short answer to the question"
     }}
 
     """
