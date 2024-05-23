@@ -1,7 +1,6 @@
 from nltk.corpus import stopwords
 import re, string
-import nltk
-#nltk.download('stopwords')
+
 
 def preprocess(text):
     text = text.lower()
